@@ -460,6 +460,7 @@ body {
 .match .club {
   display: flex;
   padding: 0 6px 0 8px;
+  align-items: center;
 }
 
 .match .club:first-child {
@@ -472,6 +473,30 @@ body {
   margin-right: 8px;
 }
 
+.match .club .club-name-group {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.cardry {
+  display: flex;
+}
+
+.red-card {
+  width: 6px;
+  height: 9px;
+  background: #ff2742;
+  border-radius: 2px;
+}
+
+.yellow-card {
+  width: 6px;
+  height: 9px;
+  background: #f2c94c;
+  border-radius: 2px;
+}
+
 .match .club .club-name {
   margin-right: auto;
   display: -webkit-box;
@@ -480,7 +505,6 @@ body {
   overflow: hidden;
   text-overflow: ellipsis;
   word-break: break-word;
-  margin-top: 4px;
 }
 
 .match .club .meta {
