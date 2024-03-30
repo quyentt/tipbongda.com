@@ -859,7 +859,7 @@ body {
   -webkit-transform: rotate(180deg);
   -ms-transform: rotate(180deg);
   transform: rotate(180deg);
-  width: 53px;
+  /* width: 53px; */
 }
 
 .circle svg circle:last-of-type {
