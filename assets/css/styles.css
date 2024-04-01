@@ -27,6 +27,7 @@ body {
   -ms-flex-align: center;
   align-items: center;
   background: #030a26;
+  justify-content: space-between;
 }
 
 .top-nav {
@@ -36,7 +37,7 @@ body {
   list-style: none;
   margin: 0;
   padding: 0;
-  margin-left: auto;
+  /* margin-left: auto; */
   color: #fff;
 }
 
@@ -1227,7 +1228,7 @@ body {
   margin-top: 8px;
   padding-top: 8px;
   padding-left: 14px;
-  padding-right: 16px;
+  padding-right: 20px;
   border-bottom: solid 1px rgb(20, 246, 71);
 }
 
@@ -2494,4 +2495,349 @@ body {
 .match-box .score-ratio .time .matching.match-center .blinker {
   animation: 1s ease-in 0s infinite normal none running blinker;
   color: rgba(255, 163, 0, 1);
+}
+
+.modal-login {
+  justify-content: center;
+}
+
+.modal-login-content.modal-content {
+  background: transparent;
+}
+
+.modal-login-content {
+  width: 100%;
+  max-width: 382px;
+}
+
+.modal-login-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 50px;
+  border-radius: 16px;
+  padding: 0 16px;
+  background: rgb(3, 10, 38);
+}
+
+.modal-login-body {
+  background: #fff;
+  margin-top: 16px;
+  border-radius: 16px;
+  display: flex;
+  flex-direction: column;
+  padding: 24px 32px;
+}
+
+.login-form input {
+  width: 100%;
+  height: 50px;
+  border-radius: 8px;
+  font-weight: 500;
+  padding: 0 25px 0 16px;
+  border: solid 2px rgb(235, 235, 235);
+  background: rgb(252, 249, 249);
+}
+
+.login-form .input-has-icon {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.login-form .input-has-icon img {
+  position: absolute;
+  right: 8px;
+}
+
+.login-form .input-has-icon {
+  margin-top: 24px;
+}
+
+.modal-login-body .title {
+  text-align: center;
+  font-size: 24px;
+  line-height: 24px;
+  font-weight: 700;
+  margin-bottom: 24px;
+}
+
+.forgot-pass-link {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+}
+
+.forgot-pass-link a {
+  text-decoration: none;
+  line-height: 20px;
+  margin-top: 24px;
+  color: rgb(16, 20, 28);
+  border-bottom: solid 1px rgb(16, 20, 28);
+}
+
+.login-form button {
+  background: linear-gradient(to left, #35e1ad, #5034ff);
+  border: none;
+  width: 100%;
+  height: 50px;
+  border-radius: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  font-weight: 700;
+  margin-top: 24px;
+}
+
+.ask-acc-yet {
+  text-align: center;
+  margin-top: 24px;
+  font-weight: 700;
+}
+
+.swich-link-now {
+  text-align: center;
+  width: 100%;
+  display: block;
+  text-decoration: none;
+  background: linear-gradient(to left, #35e1ad, #5034ff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: 700;
+}
+
+.swich-link-now span {
+  border-bottom: solid 1px;
+}
+
+.modal-addbet {
+  background: #000;
+  background-image: url(../images/bg.png);
+  background-size: 100%;
+  background-position: center top 52px;
+  background-repeat: no-repeat;
+}
+
+.modal-addbet-header {
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: rgb(3, 10, 38);
+  color: #fff;
+  font-size: 18px;
+  font-weight: 600;
+  border-color: rgba(225, 225, 225, 0.45);
+}
+
+.modal-addbet-header .title img {
+  margin-right: 8px;
+}
+
+.modal-addbet-body {
+  padding: 0;
+  padding-bottom: 20px;
+}
+
+.form-addbet-top {
+  border-bottom: solid 1px #28a745;
+  padding: 16px;
+}
+
+.form-addbet-top .input-label {
+  color: #fff;
+  font-weight: 700;
+  line-height: 19px;
+  margin-bottom: 4px;
+}
+
+.form-addbet-top input {
+  height: 50px;
+  width: 100%;
+  border: solid 2px rgb(235, 235, 235);
+  padding: 0 16px;
+  font-size: 15px;
+  font-weight: 500;
+  background: #fff;
+  border-radius: 8px;
+  margin-bottom: 16px;
+}
+
+.form-addbet-top textarea {
+  width: 100%;
+  border: solid 2px rgb(235, 235, 235);
+  padding: 8px 16px;
+  font-size: 15px;
+  font-weight: 500;
+  background: #fff;
+  border-radius: 8px;
+}
+
+.addbet-group {
+  padding: 0 16px;
+}
+
+.addbet-match {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  border-top: solid 1px rgba(225, 225, 225, 0.16);
+}
+
+.addbet-match .club {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 14px;
+  font-weight: 500;
+  height: 40px;
+  padding: 0 4px;
+}
+
+.addbet-match .club .logo {
+  width: 24px;
+  height: 24px;
+  border-radius: 100%;
+  margin-right: 8px;
+}
+
+.addbet-match .club .logo img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.addbet-match .club span {
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  word-break: break-word;
+}
+
+.addbet-static {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px;
+  padding: 4px;
+}
+
+.addbet-static .group {
+  width: calc(50% - 2px);
+}
+
+.addbet-static .group .item:last-child {
+  margin-bottom: 0;
+}
+
+.addbet-static .item {
+  width: 100%;
+  height: 32px;
+  border-radius: 4px;
+  background: rgb(26, 32, 44);
+  padding: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 14px;
+  font-weight: 700;
+  margin-bottom: 4px;
+}
+
+.addbet-static .item .label {
+  font-size: 14px;
+  color: rgb(130, 130, 130);
+  padding: 0;
+  font-weight: 400;
+}
+
+.addbet-static .item .up {
+  color: red;
+}
+
+.lable-has-logo .match-haft {
+  height: 24px;
+  font-size: 14px;
+  padding: 0 8px;
+  border-radius: 12px;
+  color: #fff;
+  background: rgb(40, 167, 69);
+  display: flex;
+  align-items: center;
+  margin-left: 16px;
+}
+
+.addbet-3collumn .addbet-static .group {
+  width: calc(33.333333% - 3px);
+}
+
+.addbet-static-other {
+  display: flex;
+  width: 100%;
+  height: 32px;
+  border-radius: 4px;
+  background: rgb(26, 32, 44);
+}
+
+.addbet-static-other div {
+  flex: 1;
+  text-align: center;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+}
+
+.addbet-static-other-wrap {
+  padding: 0 4px;
+}
+
+.addbet-static-other .label-other {
+  color: rgb(130, 130, 130);
+  font-weight: 400;
+}
+
+.moda-addbet-footer {
+  border: none;
+  padding: 0;
+  padding-top: 2px;
+}
+
+.moda-addbet-footer .line-2-gradient {
+  margin-top: 0;
+}
+
+.addbet-footer-btn-gr {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  padding: 16px 24px 24px 24px;
+  gap: 16px;
+  margin: 0;
+}
+
+.addbet-footer-btn-gr button {
+  flex: 1;
+  height: 40px;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  border: none;
+}
+
+.modal-footer > * {
+  margin: 0;
+}
+
+.addbet-footer-btn-gr button.cancle {
+  background: rgba(255, 255, 255, 0.16);
+}
+
+.addbet-footer-btn-gr button.save {
+  background: linear-gradient(to right, #5034ff, #35e1ad);
 }

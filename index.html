@@ -19,12 +19,12 @@
             </div>
             <ul class="top-nav">
                 <li>
-                    <a href="#" class="btn btn-gradient">
+                    <a href="#login" data-bs-toggle="modal" class="btn btn-gradient">
                         <span class="outline">Login</span>
                     </a>
                 </li>
                 <li>
-                    <a href="#" class="btn btn-gradient">
+                    <a href="#register" data-bs-toggle="modal" class="btn btn-gradient">
                         <span>Register</span>
                     </a>
                 </li>
@@ -864,6 +864,68 @@
             </div>
             <div class="copyright">
                 All Rights Reserved© 2024 Tipbongda.com
+            </div>
+        </div>
+    </div>
+    <!-- modal đăng nhập -->
+    <div class="modal fade" id="login">
+        <div class="modal-dialog modal-dialog-centered modal-login">
+            <div class="modal-login-content modal-content">
+                <div class="modal-login-header">
+                    <img src="assets/images/logo.png" alt="">
+                    <img data-bs-dismiss="modal" src="assets/images/times.svg" alt="">
+                </div>
+                <div class="modal-login-body">
+                    <div class="title">Login</div>
+                    <form class="login-form" action="">
+                        <input type="text" placeholder="Username">
+                        <div class="input-has-icon">
+                            <input type="password" name="" id="" placeholder="Password">
+                            <img src="assets/images/eye.svg" alt="">
+                        </div>
+                        <div class="forgot-pass-link">
+                            <a href=""> Forgot password?</a>
+                        </div>
+                        <button class="button">Sign In</button>
+                        <div class="ask-acc-yet">Do you not have an account?
+                        </div>
+                        <a class="swich-link-now" href="#register" data-bs-toggle="modal"><span>Register now</span></a>
+
+
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- modal đăng kya -->
+    <div class="modal fade" id="register">
+        <div class="modal-dialog modal-dialog-centered modal-login">
+            <div class="modal-login-content modal-content">
+                <div class="modal-login-header">
+                    <img src="assets/images/logo.png" alt="">
+                    <img data-bs-dismiss="modal" src="assets/images/times.svg" alt="">
+                </div>
+                <div class="modal-login-body">
+                    <div class="title">Register</div>
+                    <form class="login-form" action="">
+                        <input type="text" placeholder="Username">
+                        <div class="input-has-icon">
+                            <input type="password" name="" id="" placeholder="Password">
+                            <img src="assets/images/eye.svg" alt="">
+                        </div>
+                        <div class="input-has-icon">
+                            <input type="password" name="" id="" placeholder="Confirm password">
+                            <img src="assets/images/eye.svg" alt="">
+                        </div>
+                        <button class="button">Register</button>
+                        <div class="ask-acc-yet">Do you already have an account?
+
+                        </div>
+                        <a class="swich-link-now" href="#login" data-bs-toggle="modal"><span>Login now</span></a>
+
+
+                    </form>
+                </div>
             </div>
         </div>
     </div>

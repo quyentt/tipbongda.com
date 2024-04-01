@@ -1,0 +1,14 @@
+<svg width="24.000000" height="24.000000" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<desc>
+			Created with Pixso.
+	</desc>
+	<defs>
+		<clipPath id="clip7_8074">
+			<rect id="icon/outlined/application/eye" width="24.000000" height="24.000000" fill="white" fill-opacity="0"/>
+		</clipPath>
+	</defs>
+	<rect id="icon/outlined/application/eye" width="24.000000" height="24.000000" fill="#FFFFFF" fill-opacity="0"/>
+	<g clip-path="url(#clip7_8074)">
+		<path id="Vector" d="M22.08 11.39C19.86 6.71 16.5 4.35 12 4.35C7.49 4.35 4.13 6.71 1.91 11.39C1.82 11.58 1.78 11.79 1.78 12C1.78 12.2 1.82 12.41 1.91 12.6C4.13 17.28 7.49 19.64 12 19.64C16.5 19.64 19.86 17.28 22.08 12.6C22.26 12.22 22.26 11.78 22.08 11.39ZM12 17.95C8.21 17.95 5.45 16.03 3.49 12C5.45 7.96 8.21 6.04 12 6.04C15.78 6.04 18.54 7.96 20.5 12C18.55 16.03 15.78 17.95 12 17.95ZM11.9 7.87C9.62 7.87 7.78 9.72 7.78 12C7.78 14.27 9.62 16.12 11.9 16.12C14.18 16.12 16.03 14.27 16.03 12C16.03 9.72 14.18 7.87 11.9 7.87ZM11.9 14.62C10.45 14.62 9.28 13.45 9.28 12C9.28 10.54 10.45 9.37 11.9 9.37C13.35 9.37 14.53 10.54 14.53 12C14.53 13.45 13.35 14.62 11.9 14.62Z" fill="#10141C" fill-opacity="1.000000" fill-rule="nonzero"/>
+	</g>
+</svg>
