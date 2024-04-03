@@ -3426,3 +3426,97 @@ body {
   background: linear-gradient(to left, #35e1ad, #5034ff);
   color: #fff;
 }
+
+.calendar {
+  background: #fff;
+  width: 100%;
+  max-width: 820px;
+  border-radius: 6px 6px 0 0;
+  position: relative;
+  transition: all 0.3s;
+  font-size: 16px;
+  padding-top: 15px;
+  padding-bottom: 20px;
+  bottom: -100%;
+}
+
+.calendar .info {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.calendar .date-name {
+  background: linear-gradient(to left, #5034ff, #35e1ad);
+  display: flex;
+  align-items: center;
+  color: #fff;
+  padding: 5px 0;
+  margin-bottom: 5px;
+}
+
+.calendar .day.istoday::before {
+  background: linear-gradient(to left, #5034ff, #35e1ad);
+  width: 30px;
+  height: 30px;
+  content: "";
+  position: absolute;
+  border-radius: 100%;
+}
+
+.calendar .day-name {
+  width: calc(100% / 7);
+  text-align: center;
+}
+
+.calendar .date-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.calendar .day {
+  width: calc(100% / 7);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 50px;
+  position: relative;
+}
+
+.calendar .line-1 {
+  height: 1px;
+  width: 100%;
+  background: #e1e1e1;
+}
+
+.btn-today,
+.btn-today:hover {
+  background: linear-gradient(to left, #5034ff, #35e1ad);
+  margin-left: 15px;
+  padding: 2px 15px 5px;
+  margin-top: 15px;
+  color: #fff;
+  border: none;
+}
+
+.modal-calendar-body {
+  padding: 0;
+  overflow: hidden;
+}
+
+.calendar .day.istoday span {
+  color: #fff;
+  z-index: 1;
+  position: relative;
+}
+
+.calendar .btn.btn-next {
+  transform: rotate(-90deg);
+}
+
+.calendar .btn.btn-prev {
+  transform: rotate(90deg);
+}
