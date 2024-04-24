@@ -978,10 +978,13 @@
         const filterClose = document.querySelector(".close-filer");
         const filterDropdown = document.querySelector(".filter-dropdown");
         const filterMainLabel = document.querySelector(".filter-main-label");
+        const tipContainer = document.querySelector(".tip-container");
 
         filterClose.addEventListener("click", function() {
             filterDropdown.classList.remove("show");
             filterMainLabel.classList.add("collapsed");
+
+
         })
         const sortPopup = document.querySelectorAll(".sort");
         sortPopup.forEach((item) => {
@@ -990,10 +993,12 @@
             const sortShow = item.querySelector(".sort-lable");
             sortShow.addEventListener("click", function() {
                 sortContent.classList.add("show");
+                tipContainer.classList.add("overlay");
 
             });
             sortClose.addEventListener("click", function() {
                 sortContent.classList.remove("show");
+                tipContainer.classList.remove("overlay");
 
             });
 
