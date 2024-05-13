@@ -2890,7 +2890,7 @@
                     </div>
                     <div class="addbet-btn-group">
                         <button class="cancel" data-bs-toggle="modal" data-bs-target="#addingBet">Cancel</button>
-                        <button class="save">Save</button>
+                        <button class="save save-close">Save</button>
                     </div>
                 </div>
             </div>
@@ -2938,6 +2938,16 @@
         });
         const chattingContent = document.querySelector('.chatting-content');
         chattingContent.scrollTop = chattingContent.scrollHeight;
+        //save and close modal
+        const saveBet = document.querySelector('.save-close');
+        const myModal = new bootstrap.Modal(document.getElementById('addbet_ask_save'), {
+            keyboard: false
+        });
+        saveBet.addEventListener("click", function() {
+
+            myModal.hide();
+
+        });
     </script>
 </body>
 
